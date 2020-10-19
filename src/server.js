@@ -28,7 +28,7 @@ server
     .get('/study', pageStudy)
     .get('/give-classes', pageGiveClasses)
     .post('/save-classes', saveClasses)
-    // Escutando a porta localhost:5500
+    // Escutando a porta localhost:5000
     .listen(5000)
 
 // Em package.json, altero o script para ficar com o nodemon monitorando as mudanças ($ npm install nodemon -D)
